@@ -13,4 +13,21 @@ In this analysis, the following aspects were explored:
 
 The repository is organized as follows:
 
-ipl-2024-rcb-vs-dc-analysis/ ├── data/ │ └── innings_deliveries.csv # Dataset containing deliveries data ├── notebooks/ │ └── rcb_vs_dc_analysis.ipynb # Jupyter notebook with analysis code ├── images/ │ └── plot1.png # Saved visualizations ├── requirements.txt # Python dependencies └── README.md #
+ipl-2024-rcb-vs-dc-analysis/
+├── data/
+│   └── innings_deliveries.csv          # Dataset containing deliveries data
+├── notebooks/
+│   └── rcb_vs_dc_analysis.ipynb       # Jupyter notebook with analysis code
+├── images/
+│   └── plot1.png                      # Saved visualizations (e.g., graphs, charts)
+├── requirements.txt                   # Python dependencies
+└── README.md                          # Project documentation (this file)
+
+### Explanation of Directories and Files
+
+- **`data/`**: This directory contains the data files, such as `innings_deliveries.csv`, which are used for analysis.
+- **`notebooks/`**: This directory contains the Jupyter notebook files (e.g., `rcb_vs_dc_analysis.ipynb`) where the analysis is performed.
+- **`images/`**: This directory holds saved images or visualizations that are generated during the analysis (e.g., `plot1.png`).
+- **`requirements.txt`**: A file that lists the necessary Python libraries needed to run the project.
+- **`README.md`**: The file that contains the project description, setup instructions, and how to use the project.
+
