@@ -13,3 +13,4 @@ In this analysis, the following aspects were explored:
 
 The repository is organized as follows:
 
+ipl-2024-rcb-vs-dc-analysis/ ├── data/ │ └── innings_deliveries.csv # Dataset containing deliveries data ├── notebooks/ │ └── rcb_vs_dc_analysis.ipynb # Jupyter notebook with analysis code ├── images/ │ └── plot1.png # Saved visualizations ├── requirements.txt # Python dependencies └── README.md #
