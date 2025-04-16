@@ -11,23 +11,29 @@ In this analysis, the following aspects were explored:
 
 ## Files Structure
 
-The repository is organized as follows:
-
-ipl-2024-rcb-vs-dc-analysis/
-├── data/
-│   └── innings_deliveries.csv          # Dataset containing deliveries data
-├── notebooks/
-│   └── rcb_vs_dc_analysis.ipynb       # Jupyter notebook with analysis code
-├── images/
-│   └── plot1.png                      # Saved visualizations (e.g., graphs, charts)
-├── requirements.txt                   # Python dependencies
-└── README.md                          # Project documentation (this file)
-
-### Explanation of Directories and Files
-
 - **`data/`**: This directory contains the data files, such as `innings_deliveries.csv`, which are used for analysis.
 - **`notebooks/`**: This directory contains the Jupyter notebook files (e.g., `rcb_vs_dc_analysis.ipynb`) where the analysis is performed.
 - **`images/`**: This directory holds saved images or visualizations that are generated during the analysis (e.g., `plot1.png`).
 - **`requirements.txt`**: A file that lists the necessary Python libraries needed to run the project.
 - **`README.md`**: The file that contains the project description, setup instructions, and how to use the project.
 
+### Data
+
+The data used for this analysis comes from the IPL 2024 match between RCB and DC. It contains information about each delivery in the match, including runs, batsmen, bowler, and more.
+
+- **innings_deliveries.csv**: Contains details of the deliveries in the match, such as runs scored, batsman name, bowler name, and team information.
+
+### Notebook
+
+The analysis is implemented in a **Jupyter Notebook** located in the `notebooks/` directory. This notebook includes:
+
+1. **Loading and Cleaning Data**: Importing and preparing the dataset for analysis.
+2. **Data Analysis**: Visualizations and statistical analysis of the IPL match data.
+3. **Visualization**: Various plots showing the run distribution, top scorers, and other insights.
+
+### Requirements
+
+To run this project locally, you need to install the dependencies listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
